@@ -3,7 +3,7 @@ const app = express();
 const port = process.env.PORT || 3000;
 
 app.get('/', (req, res) => {
-  res.send('Snyk codelab');
+  res.send('Snyk Codelab');
 });
 
 app.get('/health', (req, res) => {
@@ -13,3 +13,6 @@ app.get('/health', (req, res) => {
 app.listen(port, () => {
   console.log(`app listening at http://localhost:${port}`);
 });
+
+
+
