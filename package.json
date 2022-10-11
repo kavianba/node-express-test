@@ -4,10 +4,14 @@
   "description": "accelerator-description",
   "main": "server.js",
   "scripts": {
-    "server": "node server.js"
+    "server": "node server.js",
+    "test": "mocha"
   },
   "license": "Apache License, Version 2.0",
   "dependencies": {
     "express": "^4.17.2"
+  },
+  "devDependencies": {
+    "mocha": "^10.0.0"
   }
 }
